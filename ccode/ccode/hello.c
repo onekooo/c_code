@@ -244,20 +244,20 @@
 //    int sz = sizeof(arr) / sizeof(arr[0]);
 //    for (i = 0; i< sz; i++)
 //    {
-//        //int j = 0;
-//        //int count = 0;
-//        //for (j = 0; j < sz; j++)
-//        //{
-//        //    if (arr[i] == arr[j])
-//        //    {
-//        //        count++;
-//        //    }
-//        //}
-//        //if (count == 1)
-//        //{
-//        //    printf("单身狗是：%d\n", arr[i]);
-//        //    break;
-//        //}
+        //int j = 0;
+        //int count = 0;
+        //for (j = 0; j < sz; j++)
+        //{
+        //    if (arr[i] == arr[j])
+        //    {
+        //        count++;
+        //    }
+        //}
+        //if (count == 1)
+        //{
+        //    printf("单身狗是：%d\n", arr[i]);
+        //    break;
+        //}
 //        ret = ret^arr[i];
 //    }
 //    printf("单身狗是：%d\n", ret);
@@ -268,3 +268,78 @@
 //auto:局部变量都是自动变量，默认定义局部变量时省略。
 //extern:引入外部符号，外部变量
 //register：寄存器关键字
+
+//static关键字
+//void test()
+//{
+//static 修饰局部变量，局部变量生命周期变长，出了作用域不再销毁。
+//static 可以改变全局变量的作用域，让静态全局变量只能在自己所在的源文件内使用
+//static 修饰函数的时候，改变函数的链接属性：外部链接函数变为内部链接函数
+//	static int a = 1;
+//	a++;
+//	printf("%d\n", a);
+//}
+//
+//int main()
+//{
+//	int i= 0;
+//	while (i<5)
+//	{
+//		test();
+//		i++;
+//	}
+//	return 0;
+//}
+
+//int main()
+//{
+//	//引用add.c
+//	extern int g_val;
+//	printf("%d\n", g_val);
+//	return 0;
+//}
+
+//extern int Add(int, int);
+//int main()
+//{
+//	int sum = Add(3,5);
+//	printf("%d\n", sum);
+//	return 0;
+//}
+
+//#define 定义标识符常量
+//#define MAX 100
+//#define 可以定义宏-带参数
+
+//#define MAX(x,y) (x>y?x:y)
+//
+//int main()
+//{
+//	int a = 10;
+//	int b = 20;
+//	int max = MAX(a,b);
+//	printf("%d\n", max);
+//	return 0;
+//}
+
+//指针
+//int main()
+//{
+//	int a = 10;
+//	int* p = &a; //int* 指针变量; &a: 取地址操作符
+//	printf("%p\n", &a);
+//	printf("%p\n", p);
+//	*p = 20; //解引用操作符 *
+//	printf("%d\n", a);
+//	return 0;
+//}
+
+//int main()
+//{
+//	char ch = 'w';
+//	char* pc = &ch;
+//	*pc = 't';
+//	printf("%c\n", ch);
+//	printf("%d\n",sizeof(pc));
+//	return 0;
+//}
