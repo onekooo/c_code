@@ -1,9 +1,9 @@
 ﻿#define _CRT_SECURE_NO_WARNINGS 1
 
-#define _CRT_SECURE_NO_WARNINGS 1
+
 #include <stdio.h>
 #include <string.h>
-
+//#include<typeinfo>
 //第一个程序
 //int main()
 //{
@@ -343,3 +343,20 @@
 //	printf("%d\n",sizeof(pc));
 //	return 0;
 //}
+
+
+//结构体
+
+struct Book
+{
+	char name[20];
+	short price;
+};
+
+int main()
+{
+	struct Book b1 = {"C语言程序设计", 55};
+	printf("书名：%s\n", b1.name);
+	printf("价格：%d元\n", b1.price);
+	return 0;
+}
