@@ -112,7 +112,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="add.c" />
-    <ClCompile Include="hello.c" />
+    <ClCompile Include="初识C语言.c" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />

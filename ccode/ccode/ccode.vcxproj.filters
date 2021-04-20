@@ -15,10 +15,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="hello.c">
+    <ClCompile Include="add.c">
       <Filter>头文件</Filter>
     </ClCompile>
-    <ClCompile Include="add.c">
+    <ClCompile Include="初识C语言.c">
       <Filter>头文件</Filter>
     </ClCompile>
   </ItemGroup>
