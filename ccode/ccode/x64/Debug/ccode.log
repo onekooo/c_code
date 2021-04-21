@@ -1,22 +1,22 @@
-﻿生成启动时间为 2021/4/20 8:51:30。
-     1>项目“D:\Desktop\c_code\ccode\ccode\ccode.vcxproj”在节点 2 上(build 个目标)。
+﻿生成启动时间为 2021/4/21 20:37:37。
+     1>项目“C:\Users\ty\Desktop\ccode\c_code\ccode\ccode\ccode.vcxproj”在节点 2 上(build 个目标)。
      1>InitializeBuildStatus:
          正在对“x64\Debug\ccode.unsuccessfulbuild”执行 Touch 任务。
        ClCompile:
-         d:\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /Od /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc100.pdb" /Gd /TC /errorReport:prompt "初识C语言.c"
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /Od /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc100.pdb" /Gd /TC /errorReport:prompt "初识C语言.c"
          初识C语言.c
        Link:
-         d:\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Desktop\c_code\ccode\x64\Debug\ccode.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"x64\Debug\ccode.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Desktop\c_code\ccode\x64\Debug\ccode.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Desktop\c_code\ccode\x64\Debug\ccode.lib" /MACHINE:X64 x64\Debug\add.obj
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\ty\Desktop\ccode\c_code\ccode\x64\Debug\ccode.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"x64\Debug\ccode.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\ty\Desktop\ccode\c_code\ccode\x64\Debug\ccode.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\ty\Desktop\ccode\c_code\ccode\x64\Debug\ccode.lib" /MACHINE:X64 x64\Debug\add.obj
          "x64\Debug\初识C语言.obj"
-         LINK : 没有找到 D:\Desktop\c_code\ccode\x64\Debug\ccode.exe 或上一个增量链接没有生成它；正在执行完全链接
-         ccode.vcxproj -> D:\Desktop\c_code\ccode\x64\Debug\ccode.exe
+         LINK : 没有找到 C:\Users\ty\Desktop\ccode\c_code\ccode\x64\Debug\ccode.exe 或上一个增量链接没有生成它；正在执行完全链接
+         ccode.vcxproj -> C:\Users\ty\Desktop\ccode\c_code\ccode\x64\Debug\ccode.exe
        Manifest:
-         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\Desktop\c_code\ccode\x64\Debug\ccode.exe;#1" /manifest x64\Debug\ccode.exe.intermediate.manifest
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\ty\Desktop\ccode\c_code\ccode\x64\Debug\ccode.exe;#1" /manifest x64\Debug\ccode.exe.intermediate.manifest
        FinalizeBuildStatus:
          正在删除文件“x64\Debug\ccode.unsuccessfulbuild”。
          正在对“x64\Debug\ccode.lastbuildstate”执行 Touch 任务。
-     1>已完成生成项目“D:\Desktop\c_code\ccode\ccode\ccode.vcxproj”(build 个目标)的操作。
+     1>已完成生成项目“C:\Users\ty\Desktop\ccode\c_code\ccode\ccode\ccode.vcxproj”(build 个目标)的操作。
 
 生成成功。
 
-已用时间 00:00:01.87
+已用时间 00:00:00.46

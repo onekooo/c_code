@@ -356,7 +356,15 @@ struct Book
 int main()
 {
 	struct Book b1 = {"C语言程序设计", 55};
+	struct Book* pb = &b1;  //结构体指针
+	//b1.name = "C++"; name是一个字符串数组，实质是一个地址，不能这样赋值。
+	//可以用strcpy函数操作字符串需要用头文件：string.h
+	strcpy(b1.name,"C++");
+	printf("book name:%s\n", (*pb).name);
+	printf("name: %s\n", pb->name);
 	printf("书名：%s\n", b1.name);
+	printf("价格：%d元\n", b1.price);
+	b1.price = 15;
 	printf("价格：%d元\n", b1.price);
 	return 0;
 }
