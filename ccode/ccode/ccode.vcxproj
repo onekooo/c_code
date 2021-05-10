@@ -112,6 +112,8 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="add.c" />
+    <ClCompile Include="函数.c" />
+    <ClCompile Include="分支与循环.c" />
     <ClCompile Include="初识C语言.c" />
   </ItemGroup>
   <ItemGroup>
@@ -120,6 +122,9 @@
     <Reference Include="System.Drawing" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="add.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
